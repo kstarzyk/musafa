@@ -1,7 +1,10 @@
 {
   "name": "musafa",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "nodejs migration manager",
+  "bin": {
+    "musafa": "./bin/musafa"
+  },
   "main": "bin/musafa",
   "scripts": {
     "test": "test"
