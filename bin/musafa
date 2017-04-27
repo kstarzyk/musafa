@@ -1,8 +1,9 @@
 #!/usr/bin/env node
-
-var package = require('../package.json')
 'use strict'
 
-console.log('Musafa v' + package.version)
+var info = require('../package.json')
+
+console.log('Musafa v' + info.version)
 console.log('NodeJS postgres migration tool')
-require('../lib/cli')(process.argv)
+require('../lib/cli')
+
