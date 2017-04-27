@@ -1,0 +1,15 @@
+
+module.exports = {
+  migrations_path: 'tests/data/migrations/',
+  migrations_prefix_format: '[0-9]{3,}_',
+  migrations_extension: '.sql',
+  migrations_table_name: 'musafa_migrations',
+  fullpath_in_migrations_table_name: true,
+  credentials: {
+    host: 'localhost',
+    port: 5432,
+    database: 'testing',
+    user: 'krzysztofstarzyk',
+    password: ''
+  }
+}
