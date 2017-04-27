@@ -1,6 +1,6 @@
 
 module.exports = {
-  migrations_path: 'tests/data/migrations/',
+  migrations_path: 'migrations/',
   migrations_prefix_format: '[0-9]{3,}_',
   migrations_extension: '.sql',
   migrations_table_name: 'musafa_migrations',
