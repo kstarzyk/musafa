@@ -1,0 +1,20 @@
+{
+  "name": "musafa",
+  "version": "1.0.0",
+  "description": "nodejs migration manager",
+  "main": "bin/musafa",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "migration",
+    "sql",
+    "nodejs",
+    "postgresql"
+  ],
+  "author": "kstarzyk",
+  "license": "MIT",
+  "dependencies": {
+    "pg-promise": "^5.6.7"
+  }
+}
