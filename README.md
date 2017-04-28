@@ -1,4 +1,4 @@
-# MUSAFA
+# MUSAFA [DEVELOPMENT]
 
 Simple NodeJS PostgreSQL migration tool
 
@@ -23,6 +23,7 @@ module.exports = {
 ```
 
 
+
 ### Setup
 ```
 npm install --save musafa
@@ -38,6 +39,7 @@ npm install --save musafa
 ./node_modules/.bin/musafa downall   # rollback ALL migrations
 
 ```
+
 
 
 
